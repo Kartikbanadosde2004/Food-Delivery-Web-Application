@@ -1,0 +1,90 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(veg/background.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position:static;
+}
+
+.contact{
+    display: flex;
+position: relative;
+min-height: 100vh;
+padding: 50px 100px;
+justify-content: center;
+align-items:center ;
+flex-direction: column;
+}
+.content{
+    max-width: 800px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-top: 30px;
+}
+h4{
+    color: blue;
+
+}
+h2{
+    background-color: blue;
+    color: white;
+    width: 800px;
+}
+.icon {
+height: 4%;
+width: 1%;
+background-color: aqua;
+border-radius: 50%;
+min-width:30px;
+font-size: 22px;
+text-align: center;
+
+}
+
+
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box{
+position: relative;
+padding: 20px 0;
+display: flex;
+}
+text{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+p{
+    color: orangered;
+}
+
+a{
+  background-color: antiquewhite;
+  padding: 8px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: none;
+  text-decoration:none;
+}

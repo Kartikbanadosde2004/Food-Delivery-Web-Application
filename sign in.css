@@ -1,0 +1,46 @@
+  form{
+background-image: url(veg/background.avif);
+padding: 30px;
+width: 600px;
+
+    }
+    *{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+ 
+ 
+}
+body{
+display: flex;
+  justify-content: center;
+background-position: center;
+background-size: cover;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(veg/pexels-lkloeppel-466685.jpg);
+}
+
+h2{
+    text-align: center;
+    color: aqua;
+}
+
+i{
+    color: blue;
+    height: 10%;
+    width: 50%;
+}
+
+a{
+  background-color: antiquewhite;
+  padding: 8px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-transform: none;
+  text-decoration:none;
+}
+.btn{
+  text-decoration-line: none;
+}
